@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="onBoarding_title">Добро пожаловать !</string>
+    <string name="onBoarding_title_2">В каком районе вы бы хотели посмотреть погоду ?</string>
+    <string name="current_location">Текущее местоположение</string>
+    <string name="choice_manual">Выбрать вручную</string>
+
+    <string name="icon_image_mask">http://openweathermap.org/img/wn/%s@2x.png</string>
+    <string name="celsius_mask">%d°C</string>
+    <string name="weather_by_location">Погода по локации</string>
+    <string name="choice_city_manual">Выбрать город вручную</string>
+    <string name="error_receiving_data">Ошибка получения данных</string>
+    <string name="error_location">Отсутствует разрешение на получения текущей локации</string>
+
+    <string-array name="manual_cities_list">
+        <item>London</item>
+        <item>Paris</item>
+        <item>Tokyo</item>
+        <item>New York</item>
+    </string-array>
+</resources>
