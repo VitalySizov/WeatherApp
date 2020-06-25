@@ -20,12 +20,6 @@ public class ForecastResponse {
 	@SerializedName("lon")
 	private double lon;
 
-	@SerializedName("hourly")
-	private List<HourlyItem> hourly;
-
-	@SerializedName("minutely")
-	private List<MinutelyItem> minutely;
-
 	@SerializedName("lat")
 	private double lat;
 
@@ -67,22 +61,6 @@ public class ForecastResponse {
 
 	public double getLon(){
 		return lon;
-	}
-
-	public void setHourly(List<HourlyItem> hourly){
-		this.hourly = hourly;
-	}
-
-	public List<HourlyItem> getHourly(){
-		return hourly;
-	}
-
-	public void setMinutely(List<MinutelyItem> minutely){
-		this.minutely = minutely;
-	}
-
-	public List<MinutelyItem> getMinutely(){
-		return minutely;
 	}
 
 	public void setLat(double lat){
